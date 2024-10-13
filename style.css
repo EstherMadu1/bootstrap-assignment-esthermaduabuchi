@@ -1,0 +1,164 @@
+@font-face {
+  font-family: nunitoFont;
+  src: url("font/nunitosans-regular-webfont.woff") format("woff");
+}
+
+@font-face {
+  font-family: nunitoFontBold;
+  src: url("font/nunitosans-extrabold-webfont.woff") format("woff");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "nunitoFont", Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+.nav-body {
+  background-color: #091127;
+}
+.nav-body2 {
+  background-color: #ffffff;
+  color: #091127;
+}
+
+.navb {
+  background-color: white;
+}
+
+.nav-btn {
+  background-color: #fa8527;
+}
+
+.hero-body {
+  background-color: #091127;
+  position: relative;
+}
+
+.figure h3 {
+  color: #fa8527;
+  font-family: "nunitoFontBold", Arial, sans-serif;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+ul li {
+  list-style-type: none;
+}
+
+.hero-text h1 {
+  font-family: "nunitoFontBold", Arial, sans-serif;
+  font-size: 4.4rem;
+  font-weight: 900;
+}
+
+.hero-text p {
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.restock h2 {
+  font-family: "nunitoFontBold", Arial, sans-serif;
+  font-size: 4.4rem;
+  font-weight: 900;
+  color: #091127;
+}
+
+.simplified h2,
+.lightbg h3 {
+  font-family: "nunitoFontBold", Arial, sans-serif;
+  font-size: 60px;
+  color: #091127;
+}
+hr {
+  width: 20%;
+}
+
+.restock p {
+  font-size: 22px;
+}
+
+.button,
+footer,
+.footer-bg {
+  background-color: #091127;
+  color: white;
+}
+
+.esabbie {
+  filter: grayscale(100%);
+  border-radius: 30px;
+}
+
+.wave {
+  background-image: url("images/wave.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  bottom: -250px;
+  width: 100%;
+  height: 150px;
+  z-index: 1;
+}
+.lightwave {
+  background-image: url("images/lightwave.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  bottom: 2;
+  width: 100%;
+  height: 150px;
+}
+
+.pinkbg {
+  background-color: #f7e7db;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.pinkbg:hover {
+  background-color: #e0ffea;
+}
+
+.bluebg {
+  background-color: #e0ffea;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.bluebg:hover {
+  background-color: #f7e7db;
+}
+
+.fixed-ratio-resize {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+}
+
+.lightbg {
+  background-color: #ecf2f7;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+.talk {
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  z-index: 1;
+}
+
+@media (max-width: 767px) {
+  .hero-text h1,
+  .restock h2,
+  .simplified h2,
+  .lightbg h3 {
+    font-size: 50px;
+  }
+  .hero-text p {
+    font-size: 22px;
+  }
+}
